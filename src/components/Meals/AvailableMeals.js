@@ -24,6 +24,12 @@ const DUMMY_MEALS = [
     price: 18.99,
   },
 ];
-const AvailableMeals = () => {};
-
+const AvailableMeals = () => {
+  const mealsList = DUMMY_MEALS.map();
+  return (
+    <section>
+      <ul>{mealsList}</ul>
+    </section>
+  );
+};
 export default AvailableMeals;
